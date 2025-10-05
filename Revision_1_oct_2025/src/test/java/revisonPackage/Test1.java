@@ -19,6 +19,7 @@ public class Test1 {
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS);
 		driver.get("https://www.facebook.com");
+		System.out.println("hello arun");
 	}
 
 }
