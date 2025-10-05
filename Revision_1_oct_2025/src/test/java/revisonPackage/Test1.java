@@ -20,6 +20,7 @@ public class Test1 {
 		driver.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS);
 		driver.get("https://www.facebook.com");
 		System.out.println("hello arun");
+		System.out.println("hello new branch");
 	}
 
 }
